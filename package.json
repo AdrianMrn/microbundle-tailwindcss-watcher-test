@@ -1,0 +1,16 @@
+{
+    "name": "tailwind-watcher-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "microbundle",
+        "dev": "TAILWIND_MODE=watch microbundle watch -i ./src/index.js -o ./dist/index.js -f umd --no-sourcemap"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "autoprefixer": "^10.4.2",
+        "microbundle": "^0.14.2",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.13"
+    }
+}
